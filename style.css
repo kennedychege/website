@@ -241,7 +241,6 @@ button{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
-  
   border: 10px;
   border-radius: 30px;
   gap: 15px;
@@ -419,17 +418,7 @@ button{
   flex-flow: column;
   gap: 3rem;
 }
-.put{
-  display: flex;
-  /* grid-template-columns: 500px 500px;
-  grid-template-rows: auto auto; */
-  flex-direction: column;
-  flex-wrap: wrap;
-  line-height: 20px;
-  width: 100%;
-  margin-top: 85px;
-}
-/*  */
+
 .block-2{
   display: block;
   flex-wrap: nowrap;
@@ -448,63 +437,68 @@ button{
 .span-6{
   color: rgb(71, 71, 235);
 }
-.class{ 
-  /* background-color: dimgray; */
-  gap: 3rem;
-}
-.app-9{
+.put{
   display: grid;
-  grid-template-columns: auto;
-  width: 50%;
-  gap: 10px;
-}
-
-.app-9{
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  /* background-color: rgb(92, 89, 89); */
-  border-radius: 30px;
-  line-height: 20px;
+  grid-template-columns: 1fr 1fr 1.5fr;
+  grid-template-rows: 1fr 1fr;
   height: auto;
-  gap: 3rem;
-  margin-inline: 3%;
-   /* padding: 30px; */
-}
-.brief{
-  width: 70%;
-  padding-left: 35px;
-  justify-content: center;
-}
-.try{
-  padding-left: 35px;
-}
-.image-28{
-  width: 20%;
-  height: 20px;
-  padding-left: 35px;
-}
-.crd-9{
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  background-image: url("https://assets-global.website-files.com/64ec8c38f1f49423cb5caead/656094fc2c44680c0347f526_App%20card%20bgr.png");
-  background-size: cover;
-  background-position: auto, center;
-  background-repeat: no-repeat;
-  width: 40%;
   border-radius: 30px;
-  margin-inline-start: 55%;
-  margin-top: -34%;
-  padding: 70px;
+  gap: 2rem;
+  width: 100%;
   line-height: 40px;
+  margin-top: 85px;
+}
 
+.app-9{
+  display: flex;
+  flex-direction: column;
+  grid-column: span 2;
+  margin-inline: 20px;
+  border-radius: 30px;
+  background-color: gray;
   
 }
-.app-img{
-width: 120%;
-padding-left: 35px;
-object-fit: cover;
-align-self: flex-start;
-
+.app-19{ 
+  display: flex;
+  grid-column: span 2;
+  background-color: gray;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  order: 1;
+  width: auto;
+  margin-inline: 20px;
+  border-radius: 30px;
+ 
+}
+.crd-9{
+  grid-row: span 2;
+  background-image: url("https://assets-global.website-files.com/64ec8c38f1f49423cb5caead/656094fc2c44680c0347f526_App%20card%20bgr.png");
+  border-radius: 30px;
+}
+.image-28{
+  /* width: 5%; */
+  /* padding-bottom: 70px; */
+  /* margin-inline: 30px; */
+}
+.try{
+  margin-inline: 40px;
+  margin-right: 10px;
+}
+.brief{
+  width: 100%;
+}
+.brie{
+  width: 100%;
+}
+.bri{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.image-28{
+  width: 4%;
+  margin-inline: 40px;
+  /* height: 1vh; */
 }
