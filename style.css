@@ -23,6 +23,15 @@ body{
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
+.log{
+  display: flex;
+}
+.para{
+  color: #2320d4;
+  /* background-color: aliceblue;
+  border: 10px;
+  border-radius: 30px; */
+}
   
  /* object-fit: cover;   */
 
@@ -106,6 +115,7 @@ a.active,a:hover{
 }
 .h1{
   display: flex;
+  color: aqua;
   flex: 1.22;
   flex-direction: column;
   display: flex;
